@@ -1,0 +1,194 @@
+---
+title: "Sistema de Pensiones Español"
+subtitle: "Ruben Campos Campos, Pau Piera Palacios,Mario Zamora Garcia"
+date: "Diciembre de 2021"
+author: "Universitat de València."
+output: ioslides_presentation
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Índice
+
+ <font size="4"> 
+ 
+- Introducción
+- Extracción de datos
+- Variables Demográficas
+  - Natalidad Vs. Envejecimiento
+  - Evolución de la esperanza de vida
+  - Piramide Poblacional
+  - Proyecciones Poblacionales
+  - Emancipación
+- Mercado Laboral
+  - Tasa de Paro Vs. Actividad
+  - Ocupados por grupo de Edad
+- Pensiones
+  - Evolución del Fondo de Reserva
+  - Tasa de cobertura o reemplazo
+- Alternativas
+  - Ahorro privado
+  - Evolución del ahorro privado
+  - Distribución acciones y depósitos
+
+</font> 
+
+## Introducción
+
+¿Cómo es nuestro sistema de pensiones? ¿Es este sostenible a largo plazo?
+
+<br>
+<div class="centered">
+
+
+```{r, eval = TRUE, echo = FALSE}
+
+knitr::include_graphics(here::here("imagenes", "ahorro.jpg"))
+
+```
+
+</div>
+
+
+## Extracción de datos.
+
+Principalmente nuestros datos han sido extraidos del INEBase, aunque tambien hemos sacado datos tanto de Eurostat como del Banco de España
+
+<CENTER>
+</CENTER>
+```{r,  echo = FALSE, eval = TRUE, fig.asp = 9/2, out.width = "50%", fig.align = "left"}
+
+knitr::include_graphics(here::here("imagenes", "inebase.jpg"))
+
+```
+
+```{r,  echo = FALSE, eval = TRUE, fig.asp = 4/2, out.width = "50%", fig.align = "right"}
+
+knitr::include_graphics(here::here("imagenes", "eurostat.png"))
+
+```
+
+#Variables Demográficas
+
+## Natalidad Vs. Envejecimiento
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "nat_env.png"))
+
+```
+
+
+
+## Evolución de la esperanza de vida
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "vida.png"))
+
+```
+
+
+## Piramide poblacional
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "pir_pob.png"))
+
+```
+
+## Proyección 2070
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "est_2070.png"))
+
+```
+
+## Emancipación
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "eman.png"))
+
+```
+
+## Variación Emancipación
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "var_eman.png"))
+
+```
+
+# Mercado laboral
+
+## Actividad Vs. Paro
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "act_paro.png"))
+
+```
+
+## Ocupados por grupo de Edad
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "emp_edad.png"))
+
+```
+
+# Pensiones
+
+## Evolución del Fondo de Reserva
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "fondo_reserva.png"))
+
+```
+
+## Tasa de cobertura
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "tasa_cobertura.png"))
+
+```
+
+# Alternativas
+
+## Comparación del ahorro privado entre paises
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "mapa.png"))
+
+```
+
+## Ahorro privado
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "90%", fig.align = "center"}
+
+knitr::include_graphics(here::here("imagenes", "alternativas.png"))
+
+```
+
+
+## Evolución del ahorro provado
+
+```{r, eval = TRUE, echo = FALSE, fig.asp = 1/2, out.width = "66%", fig.align = "left"}
+
+knitr::include_graphics(here::here("imagenes", "animacion.gif"))
+
+```
+
+
+
+
+
